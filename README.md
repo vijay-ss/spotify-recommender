@@ -43,8 +43,29 @@ The target variable used to make the prediction will be whether the song is one 
 
 ![](images/frequency.png)
 
+## Feature Engineering
+
+As we can see below, the ratio of favourite tracks to non-favourite tracks is heavily imbalanced, so I opted oversample the minority class to provide more balance. This will prevent the ML model from predicting most songs as the majority class (i.e. non-favourite)
+
+- Non-Favourite: 232,670 songs
+- Favourite: 55
+
+
 ## Model Building
 In order to find the most accurate method of predicting future songs, I compared 3 ML models for classification:
 - Logistic Regression
 - Decision Tree
 - Random Forest
+
+## Results
+Based on the results below, it was concluded that the Random Forest provides the most accurate predictions.
+
+- Logistic Regression F1 Score: 80.55%
+- Decision Tree F1 Score: 99.74%
+- Random Forest F1 Score: 99.94%
+
+## Conclusion
+
+On an anecdotal note, the model seems to be relatively accurate, as the top predictions are weighted into genres which I typically listen to (Rap, Hip-Hop, Dance). However there are a few genres which seem questionable such as Children's Music, Country and Folk. Perhaps the song features from thos particular songs match those from the training data. The only way to find out is to give the tracks a listen!
+
+Update: It turns out Linkin Park is classified as Children's Music :P
