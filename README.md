@@ -45,7 +45,7 @@ The target variable used to make the prediction will be whether the song is one 
 
 ## Feature Engineering
 
-As we can see below, the ratio of favourite tracks to non-favourite tracks is heavily imbalanced, so I opted oversample the minority class to provide more balance. This will prevent the ML model from predicting most songs as the majority class (i.e. non-favourite).
+As we can see below, the ratio of favourite tracks to non-favourite tracks is heavily imbalanced, so I opted oversample (SMOTE) the minority class to provide more balance. This will prevent the ML model from predicting most songs as the majority class (i.e. non-favourite).
 
 - Non-Favourite: 232,670 songs
 - Favourite: 55 songs
