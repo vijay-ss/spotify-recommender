@@ -69,3 +69,5 @@ Based on the results below, it was concluded that the Random Forest provides the
 On an anecdotal note, the model seems to be relatively accurate, as the top predictions are weighted into genres which I typically listen to (Rap, Hip-Hop, Dance). However there are a few genres which seem questionable such as Children's Music, Country and Folk. Perhaps the song features from thos particular songs match those from the training data. The only way to find out is to give the tracks a listen!
 
 Update: It turns out Linkin Park is classified as Children's Music :P
+
+![](images/prediction_genres.png)
