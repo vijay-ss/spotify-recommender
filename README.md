@@ -45,6 +45,6 @@ The target variable used to make the prediction will be whether the song is one 
 
 ## Model Building
 In order to find the most accurate method of predicting future songs, I compared 3 ML models for classification:
--- Logistic Regression
--- Decision Tree
--- Random Forest
+- Logistic Regression
+- Decision Tree
+- Random Forest
