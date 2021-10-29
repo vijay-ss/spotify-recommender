@@ -38,7 +38,13 @@ The song_features table contains key attributes which will be used to train the 
 - explicit: The binary value whether the track contains explicit content or not, (0 = No explicit content, 1 = Explicit content)
 
 
-### Prediction Target Variable
+## Prediction Target Variable
 The target variable used to make the prediction will be whether the song is one of my 'favourite' tracks. The majority of tracks were played less than 10 times (frequency). On this basis, I can consider a playback count of >10 times to be one of my more favourite songs.
 
 ![](images/frequency.png)
+
+## Model Building
+In order to find the most accurate method of predicting future songs, I compared 3 ML models for classification:
+-- Logistic Regression
+-- Decision Tree
+-- Random Forest
