@@ -2,6 +2,9 @@
 
 The goal of this project is to build a Spotify recommender engine based on my own music streaming playback history. In a previous project, I had developed an ETL job to pull my music listening history every 24 hours (https://github.com/vijay-ss/spotify-ETL). I will leverage this live data stream to build a predictive ML model and provide recommendations on songs which may interest me.
 
+## Files
+- spotify_recommender.ipynb: Jupyter notebook for the project
+
 ## Data Sources
 As stated in the intro, I have used the Spotify API to pull my listening history. The API is very intuitive and allowed my to pull each track as well as the details on each song such as the genre and individual song features. I will also use a Kaggle data set as testing data in order to apply my model and evaluate the predictions.
 
