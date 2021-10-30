@@ -4,6 +4,7 @@ The goal of this project is to build a Spotify recommender engine based on my ow
 
 ## Files
 - spotify_recommender.ipynb: Jupyter notebook for the project
+- spotify_rf.sav: pickle file with the Random Forest perdictor model
 
 ## Data Sources
 As stated in the intro, I have used the Spotify API to pull my listening history. The API is very intuitive and allowed my to pull each track as well as the details on each song such as the genre and individual song features. I will also use a Kaggle data set as testing data in order to apply my model and evaluate the predictions.
